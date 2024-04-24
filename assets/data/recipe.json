@@ -1,0 +1,112 @@
+[
+  {
+    "RecipeName": "Caesar Salad",
+    "Calories": 350,
+    "TotalServing": 4,
+    "RecipeDescription": "A classic Caesar salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+    "ImageUrl": "AppImage.caesarsalad",
+    "MakingTime": "20 minutes",
+    "Rating": 4.5,
+    "Category": "Lunch",
+    "Tags": ["Recommended"]
+  },
+  {
+    "RecipeName": "Fried Shrimp",
+    "Calories": 250,
+    "TotalServing": 2,
+    "RecipeDescription": "Crispy fried shrimp seasoned with herbs and spices, served with cocktail sauce.",
+    "ImageUrl": "AppImage.friedshrimp",
+    "MakingTime": "25 minutes",
+    "Rating": 4.2,
+    "Category": "Dinner",
+    "Tags": ["Fresh"]
+  },
+  {
+    "RecipeName": "Fettuccine Alfredo Pasta",
+    "Calories": 450,
+    "TotalServing": 3,
+    "RecipeDescription": "Creamy fettuccine pasta tossed in a rich Alfredo sauce made with butter, cream, and Parmesan cheese.",
+    "ImageUrl": "AppImage.fettuccinealfredo",
+    "MakingTime": "30 minutes",
+    "Rating": 4.7,
+    "Category": "Dinner",
+    "Tags": ["Recommended"]
+  },
+  {
+    "RecipeName": "Salmon With Veg",
+    "Calories": 400,
+    "TotalServing": 2,
+    "RecipeDescription": "Grilled salmon fillet served with a side of seasoned vegetables.",
+    "ImageUrl": "AppImage.salmonwithveg",
+    "MakingTime": "35 minutes",
+    "Rating": 4.4,
+    "Category": "Dinner",
+    "Tags": ["Fresh"]
+  },
+  {
+    "RecipeName": "Shawarma Donar Kebab",
+    "Calories": 550,
+    "TotalServing": 1,
+    "RecipeDescription": "Middle Eastern-style shawarma made with thinly sliced meat, wrapped in pita bread, and served with tahini sauce and veggies.",
+    "ImageUrl": "AppImage.shawarmadonarkebab",
+    "MakingTime": "40 minutes",
+    "Rating": 4.8,
+    "Category": "Dinner",
+    "Tags": "Recommended"
+  },
+  {
+    "RecipeName": "Shrimp Chow Mein",
+    "Calories": 380,
+    "TotalServing": 4,
+    "RecipeDescription": "Stir-fried noodles with shrimp, mixed vegetables, and a savory sauce.",
+    "ImageUrl": "AppImage.shrimpchowmein",
+    "MakingTime": "25 minutes",
+    "Rating": 4.3,
+    "Category": "Lunch",
+    "Tags": "Fresh"
+  },
+  {
+    "RecipeName": "Toast Croissant",
+    "Calories": 300,
+    "TotalServing": 2,
+    "RecipeDescription": "A delicious combination of flaky croissant slices toasted to perfection.",
+    "ImageUrl": "AppImage.toastcroissant",
+    "MakingTime": "15 minutes",
+    "Rating": 4.6,
+    "Category": "Breakfast",
+    "Tags": "Recommended"
+  },
+  {
+    "RecipeName": "Mexican Steak",
+    "Calories": 500,
+    "TotalServing": 2,
+    "RecipeDescription": "Juicy steak seasoned with Mexican spices, grilled to perfection, and served with salsa.",
+    "ImageUrl": "AppImage.mexicansteak",
+    "MakingTime": "30 minutes",
+    "Rating": 4.7,
+    "Category": "Dinner",
+    "Tags": "Recommended"
+  },
+  {
+    "RecipeName": "Rib Eye Steak",
+    "Calories": 600,
+    "TotalServing": 1,
+    "RecipeDescription": "A premium cut of rib-eye steak seasoned and seared to mouthwatering perfection.",
+    "ImageUrl": "AppImage.ribeyesteak",
+    "MakingTime": "25 minutes",
+    "Rating": 4.9,
+    "Category": "Dinner",
+    "Tags": "Fresh"
+  },
+  {
+    "RecipeName": "Pancake with Strawberry",
+    "Calories": 400,
+    "TotalServing": 2,
+    "RecipeDescription": "Fluffy pancakes topped with fresh strawberries and a drizzle of maple syrup.",
+    "ImageUrl": "AppImage.pancakewithstrawberry",
+    "MakingTime": "20 minutes",
+    "Rating": 4.5,
+    "Category": "Breakfast",
+    "Tags": "Recommended"
+  }
+]
