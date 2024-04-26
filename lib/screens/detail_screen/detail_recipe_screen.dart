@@ -157,20 +157,23 @@ class DetailRecipeScreen extends StatelessWidget {
               recipe.recipeDescription ?? "Description",
               style: AppTextStyle.subtext.copyWith(
                 color: AppColors.greyColor,
-                fontSize: Get.width * 0.04,
+                fontSize: Get.height * 0.02,
               ),
               maxLines: Get.height.toInt() ~/ 20,
               overflow: TextOverflow.ellipsis,
             ),
             const Spacer(),
-            CustomButton(
-                height: Get.height * 0.07,
-                width: Get.width * 0.9,
-                title: "Back",
-                isLoading: false,
-                onTap: () {
-                  Get.back();
-                }),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 10.0),
+              child: CustomButton(
+                  height: Get.height * 0.07,
+                  width: Get.width * 0.9,
+                  title: "Back",
+                  isLoading: false,
+                  onTap: () {
+                    Get.back();
+                  }),
+            ),
           ]),
     ));
   }

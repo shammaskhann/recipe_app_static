@@ -29,7 +29,7 @@ class ItemCard2 extends StatelessWidget {
           },
           child: Container(
             height: Get.height * 0.15,
-            width: Get.width * 0.9,
+            width: Get.width,
             decoration: BoxDecoration(
               color: AppColors.tileColor,
               borderRadius: BorderRadius.circular(20),

@@ -56,9 +56,9 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Ronjor Emma",
-                      style: AppTextStyle.subtext
-                          .copyWith(fontSize: Get.height * 0.03)),
+                  // Text("Ronjor Emma",
+                  //     style: AppTextStyle.subtext
+                  //         .copyWith(fontSize: Get.height * 0.03)),
                   Text(
                     "What would you like to cook \n today?",
                     style: AppTextStyle.largeHeading.copyWith(
@@ -235,14 +235,18 @@ class HomeScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 5.0),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        "Recomeded Recipes",
-                        style: AppTextStyle.largeHeading.copyWith(
-                          fontSize: Get.height * 0.03,
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 5.0),
+                        child: Text(
+                          "Recommended ",
+                          style: AppTextStyle.largeHeading.copyWith(
+                            fontSize: Get.height * 0.03,
+                          ),
                         ),
                       ),
                       Text(
@@ -269,6 +273,7 @@ class HomeScreen extends StatelessWidget {
                           recommendedItems.add(ItemCard2(recipe: recipe));
                         }
                         return Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: recommendedItems,
                         );
                       }
